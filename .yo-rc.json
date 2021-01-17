@@ -38,6 +38,9 @@
     "enableTranslation": true,
     "nativeLanguage": "pt-br",
     "languages": ["pt-br", "en", "es"],
-    "blueprints": []
+    "blueprints": [],
+    "herokuAppName": "geekway",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }
