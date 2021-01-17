@@ -7,6 +7,12 @@
       "jhipster-needle-menu-add-element": "Geek Way will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "carrer": "Carrer",
+        "course": "Course",
+        "proof": "Proof",
+        "userCaseCompany": "User Case Company",
+        "company": "Company",
+        "vocationalTest": "Vocational Test",
         "jhipster-needle-menu-add-entry": "Geek Way will add additional entities here (do not translate!)"
       },
       "account": {

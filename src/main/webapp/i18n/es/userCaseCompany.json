@@ -1,0 +1,34 @@
+{
+  "geekwaycoreApp": {
+    "userCaseCompany": {
+      "home": {
+        "title": "User Case Companies",
+        "createLabel": "Crear nuevo User Case Company",
+        "createOrEditLabel": "Crear o editar User Case Company",
+        "notFound": "Ningún User Case Companies encontrado"
+      },
+      "created": "Un nuevo User Case Company ha sido creado con el identificador {{ param }}",
+      "updated": "Un User Case Company ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un User Case Company ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar User Case Company {{ id }}?"
+      },
+      "detail": {
+        "title": "User Case Company"
+      },
+      "typeClone": "Type Clone",
+      "name": "Name",
+      "description": "Description",
+      "score": "Score",
+      "content": "Content",
+      "feedback": "Feedback",
+      "devStatus": "Dev Status",
+      "devNotes": "Dev Notes",
+      "feedbackStatus": "Feedback Status",
+      "linkProject": "Link Project",
+      "deadline": "Deadline",
+      "user": "User",
+      "company": "Company"
+    }
+  }
+}

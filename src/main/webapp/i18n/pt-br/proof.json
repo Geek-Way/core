@@ -1,0 +1,41 @@
+{
+  "geekwaycoreApp": {
+    "proof": {
+      "home": {
+        "title": "Proofs",
+        "createLabel": "Criar novo Proof",
+        "createOrEditLabel": "Criar ou editar Proof",
+        "notFound": "Nenhum Proof encontrado"
+      },
+      "created": "Um novo Proof foi criado com o identificador {{ param }}",
+      "updated": "Um Proof foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Proof foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Proof {{ id }}?"
+      },
+      "detail": {
+        "title": "Proof"
+      },
+      "typeClone": "Type Clone",
+      "name": "Name",
+      "description": "Description",
+      "score": "Score",
+      "scoreLevel": "Score Level",
+      "content": "Content",
+      "status": "Status",
+      "qoneQuest": "Qone Quest",
+      "qoneAsr": "Qone Asr",
+      "qoneOpt": "Qone Opt",
+      "qoneUsr": "Qone Usr",
+      "qtwoQuest": "Qtwo Quest",
+      "qtwoAsr": "Qtwo Asr",
+      "qtwoOpt": "Qtwo Opt",
+      "qtwoUsr": "Qtwo Usr",
+      "qtreQuest": "Qtre Quest",
+      "qtreAsr": "Qtre Asr",
+      "qtreOpt": "Qtre Opt",
+      "qtreUsr": "Qtre Usr",
+      "carrer": "Carrer"
+    }
+  }
+}
