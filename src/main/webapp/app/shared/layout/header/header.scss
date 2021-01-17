@@ -37,9 +37,15 @@ Developement Ribbon
 /* ==========================================================================
 Navbar styles
 ========================================================================== */
+.okokl3 {
+  display: flex;
+  width: 1500px;
+}
 .jh-navbar {
+  display: flex;
+  justify-content: center;
   background-color: #197182;
-  padding: 10px 690px;
+  padding: 10px 100px;
   border-bottom: 4px solid rgba(0, 0, 0, 0.37);
   .profile-image {
     margin: -10px 0px;

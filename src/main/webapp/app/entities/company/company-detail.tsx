@@ -19,53 +19,18 @@ export const CompanyDetail = (props: ICompanyDetailProps) => {
 
   const { companyEntity } = props;
   return (
-    <Row>
-      <Col md="8">
-        <h2>
-          <Translate contentKey="geekwaycoreApp.company.detail.title">Company</Translate> [<b>{companyEntity.id}</b>]
-        </h2>
-        <dl className="jh-entity-details">
-          <dt>
-            <span id="name">
-              <Translate contentKey="geekwaycoreApp.company.name">Name</Translate>
-            </span>
-          </dt>
-          <dd>{companyEntity.name}</dd>
-          <dt>
-            <span id="identifier">
-              <Translate contentKey="geekwaycoreApp.company.identifier">Identifier</Translate>
-            </span>
-          </dt>
-          <dd>{companyEntity.identifier}</dd>
-          <dt>
-            <span id="email">
-              <Translate contentKey="geekwaycoreApp.company.email">Email</Translate>
-            </span>
-          </dt>
-          <dd>{companyEntity.email}</dd>
-          <dt>
-            <span id="phone">
-              <Translate contentKey="geekwaycoreApp.company.phone">Phone</Translate>
-            </span>
-          </dt>
-          <dd>{companyEntity.phone}</dd>
-        </dl>
-        <Button tag={Link} to="/company" replace color="info">
-          <FontAwesomeIcon icon="arrow-left" />{' '}
-          <span className="d-none d-md-inline">
-            <Translate contentKey="entity.action.back">Back</Translate>
-          </span>
-        </Button>
-        &nbsp;
-        <Button tag={Link} to={`/company/${companyEntity.id}/edit`} replace color="primary">
-          <FontAwesomeIcon icon="pencil-alt" />{' '}
-          <span className="d-none d-md-inline">
-            <Translate contentKey="entity.action.edit">Edit</Translate>
-          </span>
-        </Button>
-      </Col>
-    </Row>
-  );
+    <div className="pipoca">
+    <div className="title">
+    <p>{companyEntity.name}</p>
+    </div>
+    <div className="conteduds">
+      <img src={companyEntity.identifier} alt=""/>
+    </div>
+    <div className="descrips">{companyEntity.phone}</div>
+    <div className="descrips">{companyEntity.email}</div>
+    </div>
+
+);
 };
 
 const mapStateToProps = ({ company }: IRootState) => ({

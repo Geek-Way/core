@@ -1,0 +1,38 @@
+.tocinhox {
+  margin-top: -30px;
+  padding: 40px 60px;
+  width: 1500px;
+  height: 1000px;
+  margin-bottom: 60px;
+}
+.table-responsive {
+  height: 95%;
+}
+
+.app {
+  box-sizing: border-box;
+  .view-container {
+    animation: up 1000ms;
+    max-width: 2000px;
+    width: 1500px;
+    height: 100%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+    .card {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .view-routes {
+      margin-top: 50px;
+      height: 100%;
+      > div {
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

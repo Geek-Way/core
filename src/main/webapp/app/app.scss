@@ -1,10 +1,9 @@
-// Override Boostrap variables
-// Import Bootstrap source files from node_modules
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 body {
-  background: #fafafa;
+  background: linear-gradient(#fafafa, #1971827e) no-repeat;
+  height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
@@ -23,10 +22,19 @@ a {
     box-sizing: border-box;
   }
 }
+@keyframes up {
+  0% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .app {
   box-sizing: border-box;
-
   .view-container {
+    animation: up 1000ms;
     max-width: 2000px;
     width: 1200px;
     height: 100%;
@@ -314,5 +322,3 @@ http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
 .width-min {
   width: 1% !important;
 }
-
-/* jhipster-needle-scss-add-main JHipster will add new css style */
