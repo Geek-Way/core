@@ -1,0 +1,96 @@
+entity Carrer {
+	typeClone String,
+    name String required,
+    description TextBlob required,
+    score Integer,
+    scoreLevel String
+}
+
+entity Course {
+	typeClone String,
+    name String required,
+    description TextBlob required,
+    score Integer,
+    scoreLevel String,
+    content TextBlob,
+    videoUrl String,
+    viewed Boolean
+}
+// carrer_id, typeClone, name, description, score, scoreLevel, content, status,
+//qoneQuest, qoneAsr, qoneOpt, qoneUsr,
+//qtwoQuest, qtwoAsr, qtwoOpt, qtwoUsr,
+//qtreQuest, qtreAsr, qtreOpt, qtreUsr
+
+entity Proof {
+	typeClone String,
+    name String required,
+    description TextBlob required,
+    score Integer,
+    scoreLevel String,
+    content TextBlob,
+    status String,
+
+    qoneQuest String,
+    qoneAsr  String,
+    qoneOpt  String,
+    qoneUsr  String,
+
+    qtwoQuest String,
+    qtwoAsr String,
+    qtwoOpt String,
+    qtwoUsr String,
+
+    qtreQuest String,
+    qtreAsr String,
+    qtreOpt String,
+    qtreUsr String
+}
+
+entity UserCaseCompany {
+	typeClone String,
+    name String required,
+    description TextBlob required,
+    score Integer,
+    content TextBlob,
+    feedback TextBlob,
+    devStatus String,
+    devNotes TextBlob,
+    feedbackStatus String,
+    linkProject String,
+	deadline Instant
+}
+
+entity Company {
+    name String required,
+    identifier String required,
+    email String required,
+    phone String
+}
+
+entity VocationalTest {
+    typeClone String,
+    name String required,
+    description TextBlob required,
+    status String,
+    carrer String,
+}
+
+relationship ManyToOne {
+	Carrer{user(login)} to User,
+
+    UserCaseCompany{user(login)} to User,
+
+    Proof{carrer} to Carrer,
+
+    UserCaseCompany{company} to Company,
+
+    Course{carrer} to Carrer
+}
+
+relationship OneToOne {
+	Carrer{vocationalTest} to VocationalTest
+}
+
+paginate Course, Carrer with infinite-scroll
+
+service all with serviceImpl
