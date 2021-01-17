@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.geekwaycore",
+      "nativeLanguage": "pt-br"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "geekwaycore",
+    "packageName": "br.com.geekwaycore",
+    "packageFolder": "br/com/geekwaycore",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YWU3ZjRkOWQzOTk3NTYwMTU0ZTIzNGFjNTNhZTQ0M2ZlZTg3NjdhZjQ5MzI4ZGRlMTBjNTliYmYzNWNhZjgxOTlkMTI1YWRhYzljMjljMTIzNzQ0ZDgyZWJmNjkwYjVhNTM3MzcyMTlkNTkyMjQ5ZWJlZjY0YTI2ZTI3MWRmYWY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1610842426438,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": ["pt-br", "en", "es"],
+    "blueprints": []
+  }
+}

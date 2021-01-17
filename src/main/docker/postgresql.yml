@@ -1,0 +1,12 @@
+version: '2'
+services:
+  geekwaycore-postgresql:
+    image: postgres:12.3
+    # volumes:
+    #     - ~/volumes/jhipster/geekwaycore/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=geekwaycore
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
