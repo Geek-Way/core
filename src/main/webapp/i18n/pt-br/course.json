@@ -1,0 +1,30 @@
+{
+  "geekwaycoreApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "createLabel": "Criar novo Course",
+        "createOrEditLabel": "Criar ou editar Course",
+        "notFound": "Nenhum Course encontrado"
+      },
+      "created": "Um novo Course foi criado com o identificador {{ param }}",
+      "updated": "Um Course foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Course foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Course {{ id }}?"
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "typeClone": "Type Clone",
+      "name": "Name",
+      "description": "Description",
+      "score": "Score",
+      "scoreLevel": "Score Level",
+      "content": "Content",
+      "videoUrl": "Video Url",
+      "viewed": "Viewed",
+      "carrer": "Carrer"
+    }
+  }
+}

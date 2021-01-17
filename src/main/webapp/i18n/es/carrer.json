@@ -1,0 +1,28 @@
+{
+  "geekwaycoreApp": {
+    "carrer": {
+      "home": {
+        "title": "Carrers",
+        "createLabel": "Crear nuevo Carrer",
+        "createOrEditLabel": "Crear o editar Carrer",
+        "notFound": "Ningún Carrers encontrado"
+      },
+      "created": "Un nuevo Carrer ha sido creado con el identificador {{ param }}",
+      "updated": "Un Carrer ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Carrer ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Carrer {{ id }}?"
+      },
+      "detail": {
+        "title": "Carrer"
+      },
+      "typeClone": "Type Clone",
+      "name": "Name",
+      "description": "Description",
+      "score": "Score",
+      "scoreLevel": "Score Level",
+      "vocationalTest": "Vocational Test",
+      "user": "User"
+    }
+  }
+}

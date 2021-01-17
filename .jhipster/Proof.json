@@ -1,0 +1,109 @@
+{
+  "name": "Proof",
+  "fields": [
+    {
+      "fieldName": "typeClone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "scoreLevel",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qoneQuest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qoneAsr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qoneOpt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qoneUsr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtwoQuest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtwoAsr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtwoOpt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtwoUsr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtreQuest",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtreAsr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtreOpt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "qtreUsr",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "carrer",
+      "otherEntityRelationshipName": "proof",
+      "relationshipName": "carrer",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210117042500",
+  "entityTableName": "proof",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

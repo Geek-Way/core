@@ -1,0 +1,26 @@
+{
+  "geekwaycoreApp": {
+    "vocationalTest": {
+      "home": {
+        "title": "Vocational Tests",
+        "createLabel": "Criar novo Vocational Test",
+        "createOrEditLabel": "Criar ou editar Vocational Test",
+        "notFound": "Nenhum Vocational Test encontrado"
+      },
+      "created": "Um novo Vocational Test foi criado com o identificador {{ param }}",
+      "updated": "Um Vocational Test foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Vocational Test foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Vocational Test {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocational Test"
+      },
+      "typeClone": "Type Clone",
+      "name": "Name",
+      "description": "Description",
+      "status": "Status",
+      "carrer": "Carrer"
+    }
+  }
+}
