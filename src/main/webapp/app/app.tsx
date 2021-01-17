@@ -29,10 +29,10 @@ export const App = (props: IAppProps) => {
     props.getProfile();
   }, []);
 
-  const paddingTop = '60px';
+  const paddingTop = '80px';
   return (
     <Router basename={baseHref}>
-      <div className="app-container" style={{ paddingTop }}>
+      <div className="app" style={{ paddingTop }}>
         <ToastContainer position={toast.POSITION.TOP_LEFT} className="toastify-container" toastClassName="toastify-toast" />
         <ErrorBoundary>
           <Header
@@ -53,7 +53,9 @@ export const App = (props: IAppProps) => {
           </Card>
           <Footer />
         </div>
+
       </div>
+
     </Router>
   );
 };

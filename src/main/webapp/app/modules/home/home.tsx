@@ -14,8 +14,10 @@ export const Home = (props: IHomeProp) => {
   const { account } = props;
 
   return (
+
     <Row>
-      <Col md="9">
+      <div className="global">
+      <div className="lol22">
         <h2>
           <Translate contentKey="home.title">Welcome, Geek Way!</Translate>
         </h2>
@@ -90,10 +92,11 @@ export const Home = (props: IHomeProp) => {
           </a>
           !
         </p>
+        </div>
+      <Col className="pad">
+        <span className="hipster" />
       </Col>
-      <Col md="3" className="pad">
-        <span className="hipster rounded" />
-      </Col>
+      </div>
     </Row>
   );
 };

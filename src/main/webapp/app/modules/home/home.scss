@@ -3,8 +3,15 @@ Main page styles
 ========================================================================== */
 .hipster {
   display: inline-block;
-  width: 100%;
+  width: 480px;
   height: 497px;
-  background: url('../../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+  background: url('../../../content/images/undraw_book_reading_kx9s.png') no-repeat center top;
   background-size: contain;
+}
+.global {
+  display: flex;
+}
+.row {
+  display: flex;
+  justify-content: center;
 }

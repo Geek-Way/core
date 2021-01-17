@@ -1,3 +1,16 @@
-.footer {
-  height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.footerx {
+  background-color: #292b2f;
+  height: 60px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 50px 50px;
+}
+.footerx p {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 }

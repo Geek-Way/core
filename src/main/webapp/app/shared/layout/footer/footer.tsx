@@ -5,14 +5,10 @@ import { Translate } from 'react-jhipster';
 import { Col, Row } from 'reactstrap';
 
 const Footer = props => (
-  <div className="footer page-content">
-    <Row>
-      <Col md="12">
+  <div className="footerx">
         <p>
-          <Translate contentKey="footer">Your footer</Translate>
+           Copyright © Geekway 2021
         </p>
-      </Col>
-    </Row>
   </div>
 );
 
