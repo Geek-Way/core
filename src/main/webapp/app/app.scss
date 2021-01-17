@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 body {
-  background: linear-gradient(#fafafa, #1971827e) no-repeat;
   height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -32,6 +31,8 @@ a {
   }
 }
 .app {
+  background: linear-gradient(#fafafa, #1971827e) no-repeat;
+  height: 100%;
   box-sizing: border-box;
   .view-container {
     animation: up 1000ms;
