@@ -1,14 +1,16 @@
 <h3 align="center">
-  <img alt= "GeekWay" href="" width="200px"/>
+  <img alt= "GeekWay" src="readme/Logo.png" />
 </h3>
- <p align="center"> applications developed during Rocketseat's Launchbase bootcamp </P>  
+ <p align="center"> Applications developed during Hackathon   </P>  
 <h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What was created? </h2>
 
-<p> Stoody is a manager for private classes. With Stoody, it is possible to create teachers and students profile, edit and/or delete them. It was created using HTML, CSS, JavaScript, Node.js and PostgreSQL. </p>
+<p> We are a Web platform that enables, generates experience and professional visibility for young people in the area of information technology.</p>
 
 <h2> <img src="https://i.dlpng.com/static/png/6577858_preview.png" width="50px" align="center"/> How to use? </h2>
 <p> You need to install Java Jdk 12+ </p>
 
+<h2>Technologies</h2>
+<p>JHipster, PostgreSql,  ReactJS + Redux, Heroku</p>
 <h3> Steps <h3>
 <h4> 1. Clone this repository <h4>
 
@@ -19,9 +21,9 @@
 <h4> 2. Running the application on your terminal <h4>
 
 ```
-#install the dependencies
+#install the dependencies and build
 $ ./mvnw
-#start the server/back-end
+#start the server/back-end with webkit
 $ npm start
 ```
 
@@ -31,6 +33,11 @@ $ npm start
  <h3> Geekway</h3>
 <img src =""/>
 
- <h3> Adding new teachers and students </h3>
-<img src =""/>
-<img src =""/>
+ <h3> Pages - Carrer, Courses and Vocational tests</h3>
+ <h1>Carrer</h1>
+<img src ="readme/geek1.png" width="100%"/>
+<h1> Courses</h1>
+<img src ="readme/geek2.png" width="100%"/>
+<p>
+<h1>Vocational tests</h1>
+<img src ="readme/geek3.png" width="100%"/>
