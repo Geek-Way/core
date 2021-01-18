@@ -34,9 +34,8 @@ $ npm start
 
  <h3> Pages - Carrer, Courses and Vocational tests</h3>
  <h1>Carrer</h1>
-<img href ="https://github.com/Geek-Way/core/blob/master/readme/geek1.PNG" width="100%"/>
+<img src ="https://github.com/Geek-Way/core/blob/master/readme/geek1.PNG" width="100%"/>
 <h1> Courses</h1>
 <img src ="https://github.com/Geek-Way/core/blob/master/readme/geek2.PNG" width="100%"/>
-<p>
 <h1>Vocational tests</h1>
 <img src ="https://github.com/Geek-Way/core/blob/master/readme/geek3.PNG" width="100%"/>
