@@ -22,7 +22,7 @@ export const VocationalTest = (props: IVocationalTestProps) => {
   return (
       <div className="tocinho">
         <div className="title">
-          <p>Testes Vocacionais</p>
+          <p>Testes Vocacionais </p>
         </div>
         <div className="table-responsive">
           {vocationalTestList && vocationalTestList.length > 0 ? (
