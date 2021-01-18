@@ -7,7 +7,7 @@
 <p> Stoody is a manager for private classes. With Stoody, it is possible to create teachers and students profile, edit and/or delete them. It was created using HTML, CSS, JavaScript, Node.js and PostgreSQL. </p>
 
 <h2> <img src="https://i.dlpng.com/static/png/6577858_preview.png" width="50px" align="center"/> How to use? </h2>
-<p> You need to install <a href="https://nodejs.org/en/">Node.js</a>, <a href="https://www.postgresql.org/">PostgreSQL</a> and <a href="https://www.electronjs.org/apps/postbird">Postbird</a>. </p>
+<p> You need to install Java Jdk 12+ </p>
 
 <h3> Steps <h3>
 <h4> 1. Clone this repository <h4>
@@ -17,8 +17,6 @@
 ```
 
 <h4> 2. Running the application on your terminal <h4>
-
-<p> Add database in core / target / h2db </p>
 
 ```
 #install the dependencies
