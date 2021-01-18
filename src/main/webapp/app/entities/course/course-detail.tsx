@@ -24,7 +24,7 @@ export const CourseDetail = (props: ICourseDetailProps) => {
     <p>{courseEntity.name}</p>
     </div>
     <div className="conteduds">
-    <iframe width="960" height="515" src={courseEntity.typeClone} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    <img src={courseEntity.typeClone} ></img>
     </div>
     <div className="descrip">{courseEntity.description}</div>
     <div className="scoresz">{courseEntity.score}</div>

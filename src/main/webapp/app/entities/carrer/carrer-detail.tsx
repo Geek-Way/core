@@ -25,7 +25,7 @@ export const CarrerDetail = (props: ICarrerDetailProps) => {
         <p>{carrerEntity.name}</p>
         </div>
         <div className="conteduds">
-        <iframe width="960" height="515" src={carrerEntity.typeClone} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <img src={carrerEntity.typeClone} alt="" />
         </div>
         <div className="descrip">{carrerEntity.description}</div>
         <div className="scoresz">{carrerEntity.score}</div>
